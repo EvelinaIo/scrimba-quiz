@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+
+    background-color: #ececec;
+    color: #000;
+}
+
+h1 {
+    font-size: 3.052rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 2.441rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.563rem;
+}
+
+.note {
+    font-size: 1.25rem
+}
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 100px;
+}
+
+.card {
+    margin: 0 auto;
+    min-width: 280px;
+    max-width: 600px;
+    border: 2px solid #000;
+    border-radius: 0;
+    background-color: #fff;
+    background-clip: content-box;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.card-img-top {
+    background-color: #fff;
+    color: #4c00fd;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    transition: color 0.5s;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.card>.list-group:last-child {
+    border-radius: 0;
+}
+
+.container-md {
+    margin-top: 20px;
+    position: relative;
+}
+
+#question-num {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 20px;  
+}
+
+.result {
+    font-size: 3.052rem;
+    font-weight: 600;
+    background-color: #4c00fd;
+    color: #fff;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.btn-return {
+    display: none;
+}

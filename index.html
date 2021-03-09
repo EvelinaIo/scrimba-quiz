@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Time</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <main class="quiz">
+            <h1>It's Quiz Time!</h1>
+            <p>Show off how smart you are with this awesome quiz.</p>
+            <section class="container-md">
+                <div id="question-num">1-5</div>
+                <div class="card">
+                    <div class="card-img-top"><h3 id="question">Which is the fastest land animal?</h3></div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                  Lion
+                                </label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                Cheetah
+                                </label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                <label class="form-check-label" for="flexRadioDefault3">
+                                Thomson's Gazelle
+                                </label>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                                <label class="form-check-label" for="flexRadioDefault4">
+                                Hare
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <button type="button" class="btn btn-dark" id='next' disabled='true'>Next</button>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
